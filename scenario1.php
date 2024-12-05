@@ -1,5 +1,5 @@
 <?php
-	header("Content-Security-Policy: default-src 'self' 'unsafe-inline' ");
+	header("Content-Security-Policy: default-src 'self' ; report-uri /csp-report.php");
 ?>
 <!DOCTYPE html>
 <html lang="en">

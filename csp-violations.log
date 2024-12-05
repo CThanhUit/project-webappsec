@@ -1,0 +1,36 @@
+Array
+(
+    [csp-report] => Array
+        (
+            [document-uri] => https://fictional-acorn-g9q7rjvx6xr2w766-8000.app.github.dev/scenario1.php?input=%3Cscript%3Ealert%281%29%3C%2Fscript%3E
+            [referrer] => https://fictional-acorn-g9q7rjvx6xr2w766-8000.app.github.dev/scenario1.php
+            [violated-directive] => script-src-elem
+            [effective-directive] => script-src-elem
+            [original-policy] => default-src 'self' ; report-uri /csp-report-endpoint.php
+            [disposition] => enforce
+            [blocked-uri] => inline
+            [line-number] => 34
+            [source-file] => https://fictional-acorn-g9q7rjvx6xr2w766-8000.app.github.dev/scenario1.php
+            [status-code] => 200
+            [script-sample] => 
+        )
+
+)
+Array
+(
+    [csp-report] => Array
+        (
+            [document-uri] => https://fictional-acorn-g9q7rjvx6xr2w766-8000.app.github.dev/scenario1.php?input=%3Cscript%3Ealert%281%29%3C%2Fscript%3E
+            [referrer] => https://fictional-acorn-g9q7rjvx6xr2w766.github.dev/
+            [violated-directive] => script-src-elem
+            [effective-directive] => script-src-elem
+            [original-policy] => default-src 'self' ; report-uri /csp-report-endpoint.php
+            [disposition] => enforce
+            [blocked-uri] => inline
+            [line-number] => 34
+            [source-file] => https://fictional-acorn-g9q7rjvx6xr2w766-8000.app.github.dev/scenario1.php
+            [status-code] => 200
+            [script-sample] => 
+        )
+
+)

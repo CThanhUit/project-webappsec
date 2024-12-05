@@ -1,5 +1,5 @@
 <?php
-	header("Content-Security-Policy: script-src 'self' data: ;  child-src 'none'; report-uri /nonexistpage;");
+	header("Content-Security-Policy: script-src 'self' data: ;  child-src 'none'; report-uri  /csp-report-endpoint;");
 ?>
 <!DOCTYPE html>
 <html lang="en">
